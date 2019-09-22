@@ -1,0 +1,267 @@
+body {
+  background-image: url(bulletpaper.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  flex-grow: 2;
+}
+.heading img {
+  max-width: 1000px;
+}
+.github {
+  flex-grow: 1;
+}
+.github img {
+  max-width: 150px;
+  transform: rotate(5deg);
+}
+.github a:hover img {
+  max-width: 140px;
+}
+.codeReview {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.animation {
+  flex-grow: 2;
+  margin-top: 100px;
+}
+.moreInfo {
+  margin-top: -50px;
+}
+
+.animation img {
+  max-width: 450px;
+}
+
+.info img {
+  max-width: 800px;
+}
+
+.info p {
+  /*font-family: 'The Girl Next Door', cursive;*/
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: #000f55;
+  text-align: center;
+  max-width: 525px;
+  margin-top: -400px;
+  margin-left: 125px;
+}
+#red {
+  color: #d30f1f;
+}
+h1 {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 72px;
+  color: #2e5845;
+}
+.links {
+  display: flex;
+  margin-bottom: 150px;
+}
+.post-it {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.post-it img {
+  max-width: 500px;
+  transform: rotate(-5deg);
+}
+.post-it a {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 52px;
+  color: #000f55;
+  position: absolute;
+  top: 170px;
+  left: 190px;
+  z-index: 1;
+  transform: rotate(3deg);
+}
+.post-it a:hover {
+  color: #ff0083;
+}
+.links a {
+  text-decoration: none;
+}
+.square img {
+  max-width: 550px;
+}
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 72px;
+  margin-bottom: -22px;
+  color: #000f55;
+}
+ul {
+  margin-top: -350px;
+  margin-left: 50px;
+}
+li {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 48px;
+  color: #000f55;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #ff0083;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1042px) {
+  body {
+    max-width: 900px;
+  }
+  .codeReview {
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .animation {
+    margin-top: -100px;
+    margin-left: -150px;
+  }
+  .moreInfo {
+    margin-top: -250px;
+    margin-left: -450px;
+    padding: 50px;
+  }
+  .post-it {
+    margin-left: 200px;
+    margin-top: 300px;
+  }
+  .github {
+    display: none;
+  }
+}
+/*------------------------------------------------------------------------------------------------------*/
+@media (max-width: 920px) {
+  .heading img {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .moreInfo {
+    margin-top: -250px;
+    margin-left: -550px;
+  }
+  .animation img {
+    max-width: 350px;
+  }
+}
+/*------------------------------------------------------------------------------------------------------*/
+@media (max-width: 414px) {
+  body {
+    background-image: url(bulletpaper_clean.png);
+  }
+}
+.heading img {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 32px;
+}
+
+.info img {
+  display: none;
+}
+.info p {
+  font-size: 24px;
+  width: 300px;
+  margin-left: -50px;
+}
+.codeReview {
+  margin-top: 400px;
+}
+.animation img {
+  max-width: 250px;
+  margin-top: -70px;
+  margin-left: 100px;
+}
+.square img {
+  display: none;
+}
+ul {
+  width: 300px;
+  margin-left: 125px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+li {
+  font-size: 24px;
+}
+.links {
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 32px;
+  width: 150px;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+.post-it {
+  margin-top: 250px;
+  margin-left: 75px;
+}
+.post-it img {
+  max-width: 250px;
+  transform: rotate(-5deg);
+  margin-left: 0px;
+}
+.post-it a {
+  font-size: 32px;
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  z-index: 1;
+  transform: rotate(3deg);
+}
+/*------------------------------------------------------------------------------------------------------*/
+@media (max-width: 375px) {
+  .heading img {
+    max-width: 350px;
+  }
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 360px) {
+  .info p {
+    font-size: 24px;
+    width: 250px;
+    margin-left: -50px;
+  }
+}
+/*------------------------------------------------------------------------------------------------------*/
+@media (max-width: 320px) {
+  .heading img {
+    max-width: 300px;
+  }
+  .post-it {
+    margin-top: 250px;
+    margin-left: 25px;
+  }
+  h2 {
+    font-size: 32px;
+    width: 150px;
+    margin-left: 180px;
+    margin-top: 200px;
+  }
+}
