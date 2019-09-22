@@ -170,7 +170,7 @@ li a:hover {
   body {
     background-image: url(bulletpaper_clean.png);
   }
-}
+
 .heading img {
   max-width: 400px;
   margin-left: auto;
@@ -234,6 +234,7 @@ h2 {
   z-index: 1;
   transform: rotate(3deg);
 }
+    }
 /*------------------------------------------------------------------------------------------------------*/
 @media (max-width: 375px) {
   .heading img {
